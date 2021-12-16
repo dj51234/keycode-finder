@@ -22,6 +22,4 @@ window.addEventListener("keydown", (event) => {
 
   which.textContent = event.which;
   code.textContent = event.code;
-
-  console.log(event);
 });

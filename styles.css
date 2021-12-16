@@ -46,12 +46,12 @@ body {
   align-items: center;
   color: #eb4960;
   background-color: #334247;
-  padding: 10PX;
-  flex: 1;
+  padding: 10px;
 }
 
 .box p {
   color: #fdceaa;
+  font-size: 0.8rem;
 }
 
 .show {
@@ -60,4 +60,27 @@ body {
 
 .hide {
   display: none;
+}
+
+a {
+  color: #f4837d;
+  font-size: 0.7rem;
+  transition: color 0.2dwafs ease;
+}
+
+a:hover {
+  color: #99b998;
+}
+
+@media (max-width: 990px) {
+  .container {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .box {
+    width: 50%;
+  }
+  .box-child {
+    height: 50%;
+  }
 }
